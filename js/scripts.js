@@ -1,10 +1,10 @@
 $(document).ready(function()  {
-    var flavors = ["chocolate", "vanilla", "strawberry"];
+    var flavors = ["chocolate ", "vanilla ", "strawberry"];
 
     flavors.forEach(function(flavor) {
       // var userInput = $("input#" + flavor).val();
-      $('#flavors').text(flavors);
-      // alert('I want' + flavor + 'in my whisky');
+      $('#result').text(flavors);
+      alert('I want ' + flavor + 'in my whisky');
     });
 
 
@@ -18,4 +18,4 @@ $(document).ready(function()  {
 
     // $("#result").text(newArray);
     event.preventDefault();
- });
+      });
